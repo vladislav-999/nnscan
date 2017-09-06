@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.vladislav.nnscan.TwoFragment"
+    android:layout_marginTop="50dp"
+    android:touchscreenBlocksFocus="false">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        app:srcCompat="?attr/actionBarDivider"
+        android:id="@+id/ivPhoto" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_rotate"
+        android:id="@+id/turnButton" />
+
+    <Button
+        android:text="Негатив"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/negativeButton"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="160dp" />
+
+    <Button
+        android:text="Монохром"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonMono"
+        android:layout_marginTop="200dp" />
+
+    <Button
+        android:text="Сканувати"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scanButton"
+        android:layout_marginTop="300dp" />
+
+</FrameLayout>
